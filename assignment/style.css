@@ -1,11 +1,81 @@
 /* Give your page a fun background color */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(92, 0, 149);
+}
 
 /* Make the header and footer a different color from the background */
-
 /* Align the h1 containing your name in the center of the header*/
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(42, 122, 135);
+    
+}
 
-/* Make your p tag a different color and italic */
+.name{
+    margin-top: 15px;
+    color: #3f0065;
+    font-size: 65px;
+    font-family: 'Bungee Shade', cursive;
+
+}
 
 /* Put a border around your image */
+.profile-pic{
+    max-width: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 5px solid #2a7a87;
+   
+}
+
+.blurb{
+    color: #2a7a87;
+    font-family:'Righteous', cursive;
+    font-size: 40px;
+    
+
+}
+
+.side{
+    display: flex;
+    float: right;
+    position: sticky;
+    margin-right: 75px;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: flex-end;
+    border: 5px #2a7a87;
+    width: 67%;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgb(42, 122, 135);
+}
+
+/* Make your p tag a different color and italic */
+.quote{
+    font-size: 35px;
+    color: #3f0065;
+    font-family: 'Bungee Shade', cursive;
+    font-style: italic;
+    font-weight:900; 
+}
 
 /* Change the font-family of your list */
+.list{
+    margin-left: 20px;
+    color: #2a7a87;
+    font-family:'Righteous', cursive;
+    font-size: 40px;
+}

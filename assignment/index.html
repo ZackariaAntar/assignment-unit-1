@@ -6,28 +6,39 @@
     <!-- Change the <title> from "Page Title" to "Hello World" -->
     <title>Hello World</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="helloWorld.js"> </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Righteous&display=swap');
+      </style>
+
 </head>
+
 <body>
-     <!-- Create a header element  -->
-    <header>
+     <!-- Create a header element  -->  
+     <header class="header">
     <!-- Inside the header, add an <h1> element containing your name -->
-        <h1>Zackaria Antar</h1>
+        <h1 class="name">Zackaria Antar</h1>
     <!-- Include an image -->
-        <img src="profilepic.jpg" alt="profilepic">
-    <!-- Create an unordered list with 3 list items of fun facts about you -->    
-        <ul>
-            <li>I once sang the national anthem at a Twins game.</li>
+    </header>
+    <main>  
+    <img class="profile-pic" src="profilepic.jpg" alt="profilepic">
+    <!-- Create an unordered list with 3 list items of fun facts about you --> 
+    <div class="side">
+    <p class="blurb">Vibing in perpetuity:</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2Q0oFqTpJFI83Ltn7sTTdu?utm_source=generator&theme=0" width="45%" height="250" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>    
+        <ul class="list">
             <li>I make a mean poke bowl.</li>
             <li>My favorite color is purple.</li>
+            <li>I once sang the national anthem at a Twins game.</li> 
         </ul>
-    </header>
+    </main>
     <!-- Create a footer element -->
-    <footer>
+    <footer class="footer">
     <!-- Inside your footer, put a <p> element with your favorite quote -->
-        <p>“If you can do no good, at least do no harm.” - Kurt Vonnegut</p>
+        <p class="quote">“If you can do no good, at least do no harm.” - Kurt Vonnegut</p>
     </footer>
-   
+    
 </body>
 </html>
